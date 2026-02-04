@@ -1,0 +1,20 @@
+Model Name: DecisionTree_10Max
+Test Accuracy: 0.8786
+ROC-AUC: 0.9460
+PR-AUC: 0.9062
+Positive Class Prevalence (Baseline for PR-AUC): 0.3758
+F1 Score: 0.8396
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.90      0.90      5979
+           1       0.83      0.85      0.84      3600
+
+    accuracy                           0.88      9579
+   macro avg       0.87      0.87      0.87      9579
+weighted avg       0.88      0.88      0.88      9579
+
+Confusion Matrix:
+[[5373  606]
+ [ 557 3043]]

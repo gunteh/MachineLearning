@@ -1,0 +1,20 @@
+Model Name: NeuralNet_MediumLayers
+Test Accuracy: 0.8839
+ROC-AUC: 0.9558
+PR-AUC: 0.9343
+Positive Class Prevalence (Baseline for PR-AUC): 0.3758
+F1 Score: 0.8406
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.93      0.91      5979
+           1       0.87      0.81      0.84      3600
+
+    accuracy                           0.88      9579
+   macro avg       0.88      0.87      0.87      9579
+weighted avg       0.88      0.88      0.88      9579
+
+Confusion Matrix:
+[[5536  443]
+ [ 669 2931]]

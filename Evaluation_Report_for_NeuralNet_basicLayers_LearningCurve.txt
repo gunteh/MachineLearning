@@ -1,0 +1,20 @@
+Model Name: NeuralNet_basicLayers
+Test Accuracy: 0.8835
+ROC-AUC: 0.9527
+PR-AUC: 0.9259
+Positive Class Prevalence (Baseline for PR-AUC): 0.3758
+F1 Score: 0.8410
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.92      0.91      5979
+           1       0.86      0.82      0.84      3600
+
+    accuracy                           0.88      9579
+   macro avg       0.88      0.87      0.87      9579
+weighted avg       0.88      0.88      0.88      9579
+
+Confusion Matrix:
+[[5512  467]
+ [ 649 2951]]

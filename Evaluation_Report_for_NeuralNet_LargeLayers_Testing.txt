@@ -1,0 +1,20 @@
+Model Name: NeuralNet_LargeLayers
+Test Accuracy: 0.8830
+ROC-AUC: 0.9569
+PR-AUC: 0.9369
+Positive Class Prevalence (Baseline for PR-AUC): 0.3758
+F1 Score: 0.8445
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91      5979
+           1       0.84      0.85      0.84      3600
+
+    accuracy                           0.88      9579
+   macro avg       0.88      0.88      0.88      9579
+weighted avg       0.88      0.88      0.88      9579
+
+Confusion Matrix:
+[[5413  566]
+ [ 555 3045]]

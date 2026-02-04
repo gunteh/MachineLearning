@@ -1,0 +1,20 @@
+Model Name: KNN_5
+Test Accuracy: 0.8360
+ROC-AUC: 0.9041
+PR-AUC: 0.8469
+Positive Class Prevalence (Baseline for PR-AUC): 0.3758
+F1 Score: 0.7835
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.86      0.87      5979
+           1       0.78      0.79      0.78      3600
+
+    accuracy                           0.84      9579
+   macro avg       0.82      0.83      0.83      9579
+weighted avg       0.84      0.84      0.84      9579
+
+Confusion Matrix:
+[[5165  814]
+ [ 757 2843]]

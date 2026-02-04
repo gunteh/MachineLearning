@@ -1,0 +1,20 @@
+Model Name: SVM_rbf
+Test Accuracy: 0.8641
+ROC-AUC: 0.9209
+PR-AUC: 0.8856
+Positive Class Prevalence (Baseline for PR-AUC): 0.3758
+F1 Score: 0.8074
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.93      0.89      5979
+           1       0.86      0.76      0.81      3600
+
+    accuracy                           0.86      9579
+   macro avg       0.86      0.84      0.85      9579
+weighted avg       0.86      0.86      0.86      9579
+
+Confusion Matrix:
+[[5548  431]
+ [ 871 2729]]
